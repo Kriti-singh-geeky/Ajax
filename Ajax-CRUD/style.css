@@ -1,0 +1,117 @@
+
+
+#table-form {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#table-form input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#table-form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#table-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 550px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 550px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.delete-btn {
+    background: red; 
+    color: #fff;
+    border: 0;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.edit-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: 0;
+    padding: 6px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+#modal{
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+#modal-form{
+    background: #fff;
+    width: 40%;
+    position: relative;
+    top:20%;
+    left: calc(50%-20%);
+    padding: 15px;
+    border-radius: 4px;
+    margin-left: 120px;
+}
+
+#modal-form h2{
+ margin: 0 0 15px;
+ padding-bottom: 10px;
+ border-bottom: 1px solid #000;
+}
+#close-btn{
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
